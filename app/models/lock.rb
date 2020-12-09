@@ -1,5 +1,3 @@
 class Lock < ApplicationRecord
-  require 'csv'
-
-  url = 
+  has_many :entries
 end
